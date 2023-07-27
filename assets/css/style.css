@@ -19,13 +19,17 @@ body {
     flex-direction: column;
 
     color: #3a3a3a;
-    font-family: Catamaran, sans-serif;
+    font-family: Merriweather Sans, sans-serif;
 }
 /* header */
 
 header {
     background-color: blueviolet;
-}      
+}   
+
+h1 {
+    font-family: Catamaran, sans-serif;
+}
 /* main */
 
 main {

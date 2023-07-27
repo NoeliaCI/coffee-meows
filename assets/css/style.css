@@ -30,6 +30,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 1px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }   
 
 header a {
@@ -69,7 +72,24 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 1px 1px #3a3a3a;
     display: none;
+    top: 100%;
 }
+
+/* navigation toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 
 /* main */
 

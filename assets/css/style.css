@@ -43,6 +43,22 @@ h1 {
     letter-spacing: 3px;
     color: coral;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1rem;
+
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* main */
 
 main {

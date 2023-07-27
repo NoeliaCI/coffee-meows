@@ -1,3 +1,8 @@
+/* Google fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Merriweather+Sans:wght@300&display=swap');
+
+
 /* asterisk selector to override default styles */
 
 * {
@@ -5,6 +10,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* general styles */
 
 body {
@@ -13,6 +19,7 @@ body {
     flex-direction: column;
 
     color: #3a3a3a;
+    font-family: Catamaran, sans-serif;
 }
 /* header */
 

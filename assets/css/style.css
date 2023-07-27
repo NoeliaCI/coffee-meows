@@ -1,1 +1,24 @@
-      
+/* asterisk selector to override default styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    background-color: blueviolet;
+}      
+/* main */
+
+main {
+    background-color: rgb(43, 226, 76);
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(226, 43, 43);
+}

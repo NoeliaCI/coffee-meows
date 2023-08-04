@@ -38,7 +38,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #7d2d07;
+    color: #3f1e0e;
 
 }
 
@@ -47,11 +47,11 @@ h1 {
     font-family: Catamaran, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #7d2d07;
+    color: #3f1e0e;
 }
 
 #logo {
-    color: #7d2d07;
+    color: #3f1e0e;
     font-size: 180%;
     text-decoration: none;
 }
@@ -109,6 +109,7 @@ main {
     height: 500px;
     flex: 1 0 auto;
     margin-top: 95px;
+    margin-bottom: 25px;
 
 }
 
@@ -137,6 +138,30 @@ main {
     }
 }
 
+/* Cover text for hero image */
+
+#cover-text {
+    font-size: 75%;
+    font-family: Catamaran, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width: 200px;
+    height: 100px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-right: 20px;
+
+    background-color: rgb(241, 228, 228);
+    opacity: 0.8;
+
+    bottom: 20px;
+    right: 20px;
+   
+
+    position: absolute;
+}
 
 
 /* footer */
@@ -147,7 +172,7 @@ footer {
     height: auto;
     width: 100%;
     margin-top: auto;
-    background-color: #A0522D;
+    background-color: #3f1e0e;
     color: rgb(231, 227, 227);
 
 }
@@ -246,7 +271,7 @@ footer ul {
     @media screen and (min-width: 968px) {
 
         #menu a:hover {
-            border-bottom: 1px solid #3f1e0e;
+            border-bottom: 1px solid ##3f1e0e;
         }
 
         /* Footer */

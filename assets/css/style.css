@@ -180,9 +180,16 @@ main {
 #welcome-text {
 
     text-align: center;
-    margin: 20px 10px 20px 10px;
+    margin: 20px 10px 30px 10px;
 
+}
 
+#welcome-icon {
+
+    text-align: center;
+        font-size: large;
+        margin-top: 50px;
+        letter-spacing: 10px;
 }
 
 
@@ -218,6 +225,14 @@ footer ul {
     gap: 15px;
     list-style: none;
 }
+
+    /*Media query for range between small and bigger mobiles (from 300px to 768px)*/
+
+        @media screen and (min-width: 360px) and (max-width: 768px) {
+            main {
+                margin-top: auto;
+            }
+        }
 
     /* Media query for tablets and larger screens (768px and up) */
 

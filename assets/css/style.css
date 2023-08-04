@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    color: #3a3a3a;
+    color: #3f1e0e;
     font-family: Merriweather Sans, sans-serif;
 }
 /* header */
@@ -29,7 +29,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 1px #3a3a3a;
+    box-shadow: 0 1px 1px #3f1e0e;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -37,14 +37,14 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: #3f1e0e;
 }
 
 h1 {
     font-family: Catamaran, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: coral;
+    color: #3f1e0e;
 }
 
 #menu {
@@ -59,7 +59,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3f1e0e;
 }
 
 /* dropdown toggle for navigation menu */
@@ -70,7 +70,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 1px 1px #3a3a3a;
+    box-shadow: 0 1px 1px #3f1e0e;
     display: none;
     top: 100%;
 }
@@ -104,4 +104,30 @@ main {
 
 footer {
     background-color: rgb(226, 43, 43);
+}
+
+/* Media query for tablets and larger screens (768px and up) */
+
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }

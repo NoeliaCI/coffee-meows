@@ -104,11 +104,19 @@ nav {
 /* main */
 
 main {
-    background-color: rgb(43, 226, 76);
+    
     height: 500px;
     flex: 1 0 auto;
     margin-top: 95px;
 
+}
+
+/* Hero section */
+
+#hero {
+    height: 500px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
 }
 
 /* footer */

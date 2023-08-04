@@ -106,7 +106,7 @@ nav {
 
 main {
     
-    height: 500px;
+    height: 1200px;
     flex: 1 0 auto;
     margin-top: 95px;
     margin-bottom: 25px;
@@ -116,7 +116,7 @@ main {
 /* Hero section */
 
 #hero {
-    height: 500px;
+    height: 300px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
 
@@ -161,6 +161,28 @@ main {
    
 
     position: absolute;
+}
+
+/* Welcome section */
+
+#welcome {
+
+    margin-top: 50px;
+    
+}
+
+#welcome h2 {
+
+    text-align: center;
+    color: #3f1e0e;
+}
+
+#welcome-text {
+
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+
+
 }
 
 
@@ -281,6 +303,10 @@ footer ul {
             justify-content: space-evenly;
             font-size: large;
             
+        }
+
+        #cover-text {
+            margin-right: 70px;
         }
 
 

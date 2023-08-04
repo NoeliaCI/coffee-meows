@@ -37,20 +37,29 @@ header {
 
 header a {
     text-decoration: none;
-    color: #3f1e0e;
+    color: #7d2d07;
+
 }
+
 
 h1 {
     font-family: Catamaran, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #3f1e0e;
+    color: #7d2d07;
+}
+
+#logo {
+    color: #7d2d07;
+    font-size: 180%;
+    text-decoration: none;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
+    color: #3f1e0e;
 }
 
 #menu > li {
@@ -95,9 +104,9 @@ nav {
 
 main {
     background-color: rgb(43, 226, 76);
-
+    
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 95px;
 }
 
 /* footer */
@@ -120,6 +129,7 @@ footer {
 
     #menu {
         display: flex;
+        font-size: 120%;
     }
 
     #menu > li {
@@ -129,5 +139,20 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+
+    }
+
+    /* Main content */
+     
+    /* Push down main content for larger header */
+
+    main {
+        margin-top:75px;
     }
 }

@@ -104,15 +104,36 @@ nav {
 
 main {
     background-color: rgb(43, 226, 76);
-    
+    height: 500px;
     flex: 1 0 auto;
     margin-top: 95px;
+    
 }
 
 /* footer */
 
 footer {
-    background-color: rgb(226, 43, 43);
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin-top: auto;
+    background-color: #A0522D;
+    color: rgb(231, 227, 227);
+
+}
+
+footer div {
+    margin: 20px 10px 15px;
+    font-size: small;
+    text-align: justify;
+    height: auto;
+    
+}
+
+.openings {
+    border-spacing: 15px 0px;
+    margin-top: 10px;
 }
 
 /* Media query for tablets and larger screens (768px and up) */
@@ -148,6 +169,15 @@ footer {
 
     }
 
+    /* Footer */
+
+    footer div {
+        margin: 20px 10px 15px;
+        font-size: medium;
+        text-align: center;
+        height: auto;
+
+
     /* Main content */
      
     /* Push down main content for larger header */
@@ -155,4 +185,12 @@ footer {
     main {
         margin-top:75px;
     }
+}
+
+/* Media query for large screens (992px and up) */
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+            border-bottom: 1px solid #3f1e0e;
+        }
 }

@@ -106,7 +106,7 @@ nav {
 
 main {
     
-    height: 1200px;
+    height: 1500px;
     flex: 1 0 auto;
     margin-top: 95px;
     margin-bottom: 25px;
@@ -166,7 +166,7 @@ main {
 /* Welcome section */
 
 #welcome {
-
+    height: 20%;
     margin-top: 50px;
     
 }
@@ -190,12 +190,38 @@ main {
         font-size: large;
         margin-top: 50px;
         letter-spacing: 10px;
+        
+}
+
+/* Cat benefits section */
+
+#cat-benefits {
+    height: 60%;
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#cat-benefits h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 180%;
+}
+
+.cats-benefits-flex>div {
+    width: 100%;
 }
 
 
 /* footer */
 
 footer {
+
     display: flex;
     flex-wrap: wrap;
     height: auto;
@@ -307,9 +333,24 @@ footer ul {
 
     @media screen and (min-width: 968px) {
 
+        /* Menu links */
+
         #menu a:hover {
             border-bottom: 1px solid ##3f1e0e;
+        } 
+        /* Cover text in hero image */
+
+         #cover-text {
+             margin-right: 70px;
         }
+
+        /* Welcome section */
+        #welcome-text {
+
+            text-align: center;
+            margin: 30px 40px 30px 40px;
+            font-size: large;
+
 
         /* Footer */
 
@@ -320,9 +361,9 @@ footer ul {
             
         }
 
-        #cover-text {
-            margin-right: 70px;
-        }
+        
+
+                
 
 
 

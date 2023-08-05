@@ -241,8 +241,33 @@ main {
     
 }
 
+/* House rules section */
+
+#house-rules h2 {
+    color: #3f1e0e;
+    text-align: center;
+    font-size: 180%;
+    margin-bottom: 20px;
+
+}
+
+#house-rules-text li {
+    list-style-type: none;
+}
+
+#house-rules-text {
+    width: 80%;
+    font-size: 100%;
+    padding-left: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 25px;
 
 
+
+}
 
 /* footer */
 

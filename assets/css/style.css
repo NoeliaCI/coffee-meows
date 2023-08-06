@@ -395,10 +395,19 @@ footer h3 {
 
         }
 
+        /* Main content */
+        
+          /* Push down main content for larger header */
+        
+         main {
+                  margin-top: 75px;
+                 }
+
         /* Footer */
 
         footer {
             display: flex;
+            flex-direction: row;
             justify-content: space-evenly;
             height: auto;
             width: 100%;
@@ -419,14 +428,9 @@ footer h3 {
             height: auto;
         }
 
+        
 
-        /* Main content */
-
-        /* Push down main content for larger header */
-
-        main {
-            margin-top: 75px;
-        }
+       
     }
 
     /* Media query for large screens (968px and up) */
@@ -436,7 +440,7 @@ footer h3 {
         /* Menu links */
 
         #menu a:hover {
-            border-bottom: 1px solid ##3f1e0e;
+            border-bottom: 1px solid #3f1e0e;
         } 
         /* Cover text in hero image */
 
@@ -451,7 +455,7 @@ footer h3 {
             margin: 30px 40px 30px 40px;
             font-size: large;
 
-
+        }
         /* Footer */
 
         footer {

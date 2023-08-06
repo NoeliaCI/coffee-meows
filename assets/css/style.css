@@ -301,7 +301,7 @@ main {
 footer {
 
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     height: auto;
     width: 100%;
     margin-top: auto;
@@ -313,14 +313,18 @@ footer {
 footer div {
     margin: 20px 10px 15px;
     font-size: small;
-    text-align: justify;
+    text-align: left;
     height: auto;
 
 }
 
 .openings {
     border-spacing: 15px 0px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+   
+    
 }
 
 footer ul {
@@ -330,9 +334,27 @@ footer ul {
     list-style: none;
 }
 
-    /*Media query for range between small and bigger mobiles (from 300px to 768px)*/
+footer th {
+    display: flex;
+    justify-content: left;
+}
 
-        @media screen and (min-width: 360px) and (max-width: 768px) {
+
+
+footer a {
+    color: inherit;
+    margin-left: 15px;
+}
+
+footer h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+  /*Media query for range between small and bigger mobiles (from 300px to 768px)*/
+
+        @media screen and (min-width: 300px) and (max-width: 768px) {
             main {
                 margin-top: auto;
             }

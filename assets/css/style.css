@@ -450,11 +450,22 @@ footer h3 {
         #benefits-right img {
             border-radius: 5%;
             margin: 20px 20px 20px 0px;
-            width: 60%;
-            align-content: center;
-            
-    
+            width: 50%;        
         }
+
+              
+
+        /* House rules section */
+
+                 #house-rules-text {
+                     width: 80%;
+                     font-size: 100%;
+                     text-align: left;
+                    margin-left: 40px;
+        
+        
+        
+                 }
   
     /* Footer */
 

@@ -168,7 +168,7 @@ main {
 #welcome {
     height: 20%;
     margin-top: 50px;
-    
+
 
 }
 
@@ -204,23 +204,24 @@ main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    
+
 
 
 
 }
 
-#cat-benefits h2 {
+#benefits h2 {
     text-align: center;
     margin-top: 80px;
     margin-bottom: 40px;
-    font-size: 180%;
+
 
 }
+
 #cat-benefits hr {
-    border-top: 1px solid black;
+    border-top: 1px solid #3f1e0e;
     margin: 4px 0;
-    
+
 }
 
 .cats-benefits-flex>div {
@@ -250,7 +251,6 @@ main {
 #house-rules h2 {
     color: #3f1e0e;
     text-align: center;
-    font-size: 180%;
     margin-bottom: 20px;
 
 }
@@ -418,7 +418,7 @@ footer h3 {
     }
 
     #welcome-text {
-        
+
         padding: 25px 25px 25px 25px;
         text-align: center;
         margin: 20px 20px 30px 20px;
@@ -432,7 +432,8 @@ footer h3 {
         max-width: 80%;
     }
 
-    #benefits-left > div, #benefits-right > div {
+    #benefits-left>div,
+    #benefits-right>div {
         line-height: 25px;
 
     }
@@ -441,25 +442,25 @@ footer h3 {
         text-align: center;
         font-size: 150%;
     }
-        
-        #benefits-left img,
-        #benefits-right img {
-            border-radius: 5%;
-            margin: 20px 20px 20px 0px;
-            width: 50%;        
-        }
 
-              
+    #benefits-left img,
+    #benefits-right img {
+        border-radius: 5%;
+        margin: 20px 20px 20px 0px;
+        width: 50%;
+    }
 
-        /* House rules section */
 
-                 #house-rules-text {
-                     width: 80%;
-                     font-size: 100%;
-                     text-align: left;
-                    margin-left: 40px;       
-                 }
-  
+
+    /* House rules section */
+
+    #house-rules-text {
+        width: 80%;
+        font-size: 100%;
+        text-align: left;
+        margin-left: 40px;
+    }
+
     /* Footer */
 
     footer {
@@ -508,7 +509,7 @@ footer h3 {
     }
 
     /* Welcome section */
-    
+
     #welcome-text {
         height: fit-content;
         text-align: center;
@@ -518,49 +519,61 @@ footer h3 {
     }
 
     /* Cat benefits section */
-#benefits {
-    margin-top: 30px;
-}
+    #benefits {
+        margin-top: 30px;
+    }
 
     #cat-benefits {
-       
+
         display: flex;
         flex-direction: row;
         justify-content: baseline;
 
         margin-top: 20px;
         margin-left: 15%;
-        
+
     }
 
-        #benefits h2{
-            text-align: center;
-            margin: 50px;
-        }
+    #benefits h2 {
+        text-align: center;
+        margin: 50px;
+    }
+
     #cat-benefits hr {
         width: 75%;
     }
+
     #cat-benefits p {
         width: 75%;
         justify-content: center;
     }
+
     #benefits-left {
         width: 50%;
     }
-        #benefits-right {
-            width: 50%;
-        }
 
-   #benefits-left img,
-   #benefits-right img {
-    width: 200px;
-    
-   }
-#benefits-left img {
-    margin-top: 20px;
-}
-  
-   
+    #benefits-right {
+        width: 50%;
+    }
+
+    #benefits-left img,
+    #benefits-right img {
+        width: 200px;
+
+    }
+
+    #benefits-left img {
+        margin-top: 20px;
+    }
+
+    /* House rules section */
+
+    #house-rules-text {
+        width: 75%;
+        text-align: left;
+        line-height: 50px;
+
+    }
 
     /* Footer */
 

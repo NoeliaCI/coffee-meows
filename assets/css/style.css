@@ -168,6 +168,7 @@ main {
 #welcome {
     height: 20%;
     margin-top: 50px;
+    
 
 }
 
@@ -203,6 +204,7 @@ main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    
 
 
 
@@ -215,6 +217,11 @@ main {
     font-size: 180%;
 
 }
+#cat-benefits hr {
+    border-top: 1px solid black;
+    margin: 4px 0;
+    
+}
 
 .cats-benefits-flex>div {
     width: 100%;
@@ -226,12 +233,6 @@ main {
 
     line-height: 25px;
     margin-bottom: 20px;
-}
-
-#benefits hr {
-    border-top: 2px solid #3f1e0e;
-    width: auto;
-    margin: 4px 0;
 }
 
 #benefits-left img,
@@ -440,12 +441,7 @@ footer h3 {
         text-align: center;
         font-size: 150%;
     }
-        #benefits > hr {
-            border-top: 2px solid #3f1e0e;
-            width: 50%;
-            margin: 4px 0;
-        }
-    
+        
         #benefits-left img,
         #benefits-right img {
             border-radius: 5%;
@@ -461,10 +457,7 @@ footer h3 {
                      width: 80%;
                      font-size: 100%;
                      text-align: left;
-                    margin-left: 40px;
-        
-        
-        
+                    margin-left: 40px;       
                  }
   
     /* Footer */
@@ -515,13 +508,59 @@ footer h3 {
     }
 
     /* Welcome section */
+    
     #welcome-text {
-
+        height: fit-content;
         text-align: center;
         margin: 30px 40px 30px 40px;
         font-size: large;
 
     }
+
+    /* Cat benefits section */
+#benefits {
+    margin-top: 30px;
+}
+
+    #cat-benefits {
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+
+        margin-top: 20px;
+        margin-left: 15%;
+        
+    }
+
+        #benefits h2{
+            text-align: center;
+            margin: 50px;
+        }
+    #cat-benefits hr {
+        width: 75%;
+    }
+    #cat-benefits p {
+        width: 75%;
+        justify-content: center;
+    }
+    #benefits-left {
+        width: 50%;
+    }
+        #benefits-right {
+            width: 50%;
+        }
+
+   #benefits-left img,
+   #benefits-right img {
+    width: 200px;
+    
+   }
+#benefits-left img {
+    margin-top: 20px;
+}
+  
+   
 
     /* Footer */
 

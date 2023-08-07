@@ -105,8 +105,8 @@ nav {
 /* main */
 
 main {
-    
-   
+
+
     flex: 1 0 auto;
     margin-top: 95px;
     margin-bottom: 25px;
@@ -121,9 +121,9 @@ main {
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
 
     /* zoom effect on loading page */
-        animation-name: main-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 /* level of zoom for main image */
@@ -158,7 +158,7 @@ main {
 
     bottom: 20px;
     right: 20px;
-   
+
 
     position: absolute;
 }
@@ -168,7 +168,7 @@ main {
 #welcome {
     height: 20%;
     margin-top: 50px;
-    
+
 }
 
 #welcome h2 {
@@ -188,10 +188,10 @@ main {
 #welcome-icon {
 
     text-align: center;
-        font-size: large;
-        margin-top: 50px;
-        letter-spacing: 10px;
-        
+    font-size: large;
+    margin-top: 50px;
+    letter-spacing: 10px;
+
 }
 
 /* Cat benefits section */
@@ -203,7 +203,7 @@ main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    
+
 
 
 }
@@ -213,32 +213,35 @@ main {
     margin-top: 80px;
     margin-bottom: 40px;
     font-size: 180%;
-    
+
 }
 
 .cats-benefits-flex>div {
     width: 100%;
-    
+
 }
 
-#benefits-left > div, #benefits-right > div {
+#benefits-left>div,
+#benefits-right>div {
 
     line-height: 25px;
     margin-bottom: 20px;
 }
 
 #benefits hr {
-    border-top: 2px solid rgb(2, 1, 1);
+    border-top: 2px solid #3f1e0e;
     width: auto;
     margin: 4px 0;
 }
-#benefits-left img, #benefits-right img {
+
+#benefits-left img,
+#benefits-right img {
     border-radius: 5%;
     margin: 20px 20px 20px 0px;
 
     width: 100%;
     justify-content: center;
-    
+
 }
 
 /* House rules section */
@@ -274,11 +277,13 @@ main {
 #gallery {
     margin-top: 15px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 3px;
 }
+
 /* Makes columns stack on top of each other */
 
 .column {
@@ -287,7 +292,7 @@ main {
     padding: 0 4px;
     margin-left: 5px;
 }
-    
+
 
 
 .column img {
@@ -323,8 +328,8 @@ footer div {
     margin-top: 15px;
     margin-left: 10px;
 
-   
-    
+
+
 }
 
 footer ul {
@@ -352,125 +357,174 @@ footer h3 {
 }
 
 
-  /*Media query for range between small and bigger mobiles (from 300px to 768px)*/
+/*Media query for range between small and bigger mobiles (from 300px to 768px)*/
 
-        @media screen and (min-width: 300px) and (max-width: 768px) {
-            main {
-                margin-top: auto;
-            }
-        }
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    main {
+        margin-top: auto;
+    }
+}
 
-    /* Media query for tablets and larger screens (768px and up) */
+/* Media query for tablets and larger screens (768px and up) */
 
-    @media screen and (min-width: 768px) {
-      
+@media screen and (min-width: 768px) {
 
-        /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
 
-        #menu {
-            display: flex;
-            font-size: 100%;
-        }
-
-        #menu>li {
-
-            padding-left: 1rem;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-
-        #logo {
-            font-size: 200%;
-            line-height: 75px;
-            margin: 0 0.5rem;
-
-        }
-
-        /* Main content */
-        
-          /* Push down main content for larger header */
-        
-         main {
-                  margin-top: 75px;
-                 }
-
-        /* Footer */
-
-        footer {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            height: auto;
-            width: 100%;
-            margin-top: auto;
-        }
-
-        footer h3 {
-            display: flex;
-            justify-content: center;
-            
-            
-        }
-
-        footer div {
-
-            font-size: medium;
-            text-align: center;
-            height: auto;
-        }
-
-        
-
-       
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
 
-    /* Media query for large screens (968px and up) */
+    #menu {
+        display: flex;
+        font-size: 100%;
+    }
 
-    @media screen and (min-width: 968px) {
+    #menu>li {
 
-        /* Menu links */
+        padding-left: 1rem;
+    }
 
-        #menu a:hover {
-            border-bottom: 1px solid #3f1e0e;
-        } 
-        /* Cover text in hero image */
+    .nav-toggle-label {
+        display: none;
+    }
 
-         #cover-text {
-             margin-right: 70px;
-        }
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
 
-        /* Welcome section */
-        #welcome-text {
+    }
 
-            text-align: center;
-            margin: 30px 40px 30px 40px;
-            font-size: large;
+    /* Main content */
 
-        }
-        /* Footer */
+    /* Push down main content for larger header */
 
-        footer {
-            display: flex;
-            justify-content: space-evenly;
-            font-size: large;
-            
-        }
+    main {
+        margin-top: 75px;
+    }
 
+    /* Welcome section */
+
+    #welcome {
+        height: 40%;
+        margin-top: 50px;
+
+    }
+
+    #welcome-text {
         
+        padding: 25px 25px 25px 25px;
+        text-align: center;
+        margin: 20px 20px 30px 20px;
+        line-height: 25px;
+    }
 
-                
+    /* Cats benefits section */
 
+    #cat-benefits {
+        flex: 80%;
+        max-width: 80%;
+    }
+
+    #benefits-left > div, #benefits-right > div {
+        line-height: 25px;
+
+    }
+
+    #cat-benefits h2 {
+        text-align: center;
+        font-size: 150%;
+    }
+        #benefits > hr {
+            border-top: 2px solid #3f1e0e;
+            width: 50%;
+            margin: 4px 0;
+        }
+    
+        #benefits-left img,
+        #benefits-right img {
+            border-radius: 5%;
+            margin: 20px 20px 20px 0px;
+            width: 60%;
+            align-content: center;
+            
+    
+        }
+  
+    /* Footer */
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+        width: 100%;
+        margin-top: auto;
+
+    }
+
+    footer h3 {
+        display: flex;
+        justify-content: center;
 
 
     }
 
-        
+    footer div {
+
+        font-size: small;
+        text-align: center;
+        height: auto;
+    }
+
+
+
+
+}
+
+/* Media query for large screens (968px and up) */
+
+@media screen and (min-width: 968px) {
+
+    /* Menu links */
+
+    #menu a:hover {
+        border-bottom: 1px solid #3f1e0e;
+    }
+
+    /* Cover text in hero image */
+
+    #cover-text {
+        margin-right: 70px;
+    }
+
+    /* Welcome section */
+    #welcome-text {
+
+        text-align: center;
+        margin: 30px 40px 30px 40px;
+        font-size: large;
+
+    }
+
+    /* Footer */
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: large;
+
+    }
+
+
+
+
+
+
+
+}

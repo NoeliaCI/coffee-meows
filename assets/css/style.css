@@ -461,6 +461,13 @@ footer h3 {
         margin-left: 40px;
     }
 
+    /* Gallery page */
+                  .column {
+                      flex:25%;
+                      max-width: 50%;
+                      padding: 0 4px;
+                  }
+
     /* Footer */
 
     footer {
@@ -563,7 +570,7 @@ footer h3 {
     }
 
     #benefits-left img {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     /* House rules section */
@@ -574,6 +581,19 @@ footer h3 {
         line-height: 50px;
 
     }
+
+    /*Gallery page */
+        .column {
+            flex: 25%;
+            max-width: 33%;
+            padding: 0 4px;
+        }
+    
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
 
     /* Footer */
 

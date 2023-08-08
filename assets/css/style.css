@@ -19,7 +19,7 @@ body {
     flex-direction: column;
 
     color: #3f1e0e;
-    font-family: Merriweather Sans, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* header */
@@ -61,6 +61,10 @@ h1 {
     letter-spacing: 3px;
     list-style-type: none;
     color: #3f1e0e;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3f1e0e;
 }
 
 #menu>li {
@@ -300,6 +304,69 @@ main {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+
+/* Get in touch page */
+
+#get-in-touch {
+    
+    background-image: url("../images/latte-cat.jpg");
+    background-size: cover;
+    background-position: 75%;
+    width: 100%;
+    padding: 20px 10% 0 10%;
+    margin-top: 5%;
+    flex-grow: 1;
+}
+/* Contact form */
+
+#contact-form>h2 {
+    color: #fefefe;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    color: #fefefe;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+    
+
+}
+#message {
+    background: #fefefe;
+    color: black;
+    width: 100%;
+    height: 80px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    resize: vertical
+
+}
+
+.text-input {
+
+    background: transparent;
+    color: #fefefe;
+    width: 100%;
+    height: 25px;
+    margin: 5px 10px 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+    align-items: center;
+}
+
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #A0522D;
+    color: #fafafa;
 }
 
 /* footer */

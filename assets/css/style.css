@@ -117,7 +117,7 @@ main {
 
 #hero {
     height: 300px;
-    width: 100%;
+    width: 95.2%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
 
     /* zoom effect on loading page */

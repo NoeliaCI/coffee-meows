@@ -35,9 +35,9 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active" aria-label="Go to the Home Page">Home</a></li>
+                <li><a href="index.html"  aria-label="Go to the Home Page">Home</a></li>
                 <li><a href="gallery.html" aria-label="Go to the Gallery">Gallery</a></li>
-                <li><a href="get-in-touch.html" aria-label="Go to the Get In Touch Page">Get In Touch</a></li>
+                <li><a href="get-in-touch.html" class="active" aria-label="Go to the Get In Touch Page">Get In Touch</a></li>
             </ul>
         </nav>
     </header>
@@ -51,7 +51,7 @@
             </div>
         </section>
         <!-- Contact form section -->
-        <section>
+        <section id="get-in-touch">
             <form id="contact-form" method="post" action="https://formdump.coffeeandmeows.com">
                 <h2>Give Us A Meow!</h2>
                 <label for="first_name">First Name</label>
@@ -64,15 +64,15 @@
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <br>
                 <label for="message">Message</label>
-                <textarea type="text" name="message" id="message" placeholder="Write your message here..." rows="10" cols="40"
+                <textarea type="text" name="message" id="message" placeholder="Write your message here..." rows="10" cols="40" maxlength="2000"
                     required></textarea>
                 <br>
                 <button type="submit" class="send-button">Send</button>
         
             </form>
-        </section>
-        
+        </section>        
     </main>
+</body>
     <!-- Footer -->
     <footer>
         <div>

@@ -250,10 +250,21 @@ main {
 
 /* House rules section */
 
+#house-rules {
+    width: 90%;
+    margin: auto;
+    border: 2px solid #3f1e0e;
+    justify-items: center;
+    
+    
+}
+
 #house-rules h2 {
     color: #3f1e0e;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 15px;
+
 
 }
 
@@ -262,14 +273,15 @@ main {
 }
 
 #house-rules-text {
-    width: 80%;
-    font-size: 100%;
-    padding-left: 40px;
-    justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 80%;
+    font-size: 100%;
+    padding-left: 40px;
+    margin-bottom: 10px;
     line-height: 25px;
+    color: black;
 
 
 
@@ -307,16 +319,17 @@ main {
 /* Get in touch page */
 
 #get-in-touch {
-    
+
     background-image: url("../images/latte-cat.jpg");
     background-size: cover;
-    
+
     background-position: 75%;
     width: 100%;
     padding: 20px 10% 0 10%;
     margin-top: 5%;
     flex-grow: 1;
 }
+
 /* Contact form */
 
 #contact-form>h2 {
@@ -328,9 +341,10 @@ main {
     color: #fefefe;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
-    
+
 
 }
+
 #message {
     background: #fefefe;
     color: black;
@@ -342,7 +356,7 @@ main {
     padding: 0 5px;
     box-sizing: border-box;
     resize: vertical;
-    
+
 
 }
 
@@ -372,9 +386,9 @@ main {
 /* Thank you Page */
 
 #response {
-    height:230px;
+    height: 230px;
     width: 100%;
-    
+
 }
 
 .response-container {
@@ -389,7 +403,7 @@ main {
 .response_text {
 
     font-size: 90%;
-    
+
     line-height: 25px;
 }
 
@@ -557,20 +571,20 @@ footer h3 {
     }
 
     /* Gallery page */
-                  .column {
-                      flex:25%;
-                      max-width: 50%;
-                      padding: 0 4px;
-                  }
+    .column {
+        flex: 25%;
+        max-width: 50%;
+        padding: 0 4px;
+    }
 
     /* Thank you page */
 
-        .response-container {
-    
-            
-    
-            border-radius: 0;
-        }
+    .response-container {
+
+
+
+        border-radius: 0;
+    }
 
     /* Footer */
 
@@ -687,24 +701,24 @@ footer h3 {
     }
 
     /*Gallery page */
-        .column {
-            flex: 25%;
-            max-width: 33%;
-            padding: 0 4px;
-        }
-    
-        .column img {
-            margin-top: 8px;
-            vertical-align: middle;
-            width: 100%;
-        }
+    .column {
+        flex: 25%;
+        max-width: 33%;
+        padding: 0 4px;
+    }
 
-        /* Thank you page */
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
 
-                .response-container {
-        
-                    border: none;
-                }
+    /* Thank you page */
+
+    .response-container {
+
+        border: none;
+    }
 
     /* Footer */
 

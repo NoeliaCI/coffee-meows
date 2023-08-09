@@ -1,39 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Coffee & Meows
 
-Welcome,
+## Features
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Existing Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+* Navigation Bar  
+  * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact Us page and is identical in each page to allow easy navigation.
+  * This section allows the user to navigate from page to page across all devices without having to come back to the previous page.
+  
+  INSERT IMAGE
+  
+* Landing Page Image
+  * This section introduces the user to Coffee & Meows with an animation to get their attention.
 
-## Codeanywhere Reminders
+INSERT IMAGE
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+* Welcome Section
+  * This section welcomes the user an gives an insight of what can be found in the cafe.
+  
+  INSERT IMAGE
+  
+* The Health Benefits Of Cats Section
+  * This section gives the user some information about how being around cats could be beneficial for health.
+  
+  INSERT IMAGE
+  
+* House Rules Section
+  * This section will give the user the guidelines for the best and safest experience when visiting the cafe.
+  
+  INSERT IMAGE
+  
+* Footer
+  * The footer section includes information about opening times and address.
+  * It also includes links to the relevant social media sites which will open to a new tab to allow easy navigation for the user.
+  * This section is featured on all three pages.
 
-`python3 -m http.server`
+ INSERT IMAGE
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* Gallery
+  * The gallery provides the user with supporting images to see what the cafe environment looks like.
+  * In this section the user will be able to know about the different activities and games they can do with the cats.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+   INSERT IMAGE
 
-`http_server`
+* Get In Touch Page
+  * This page will allow the user to contact the cafe for suggestions, queries or anything they need to know about the services provided.
+  
+  INSERT IMAGE
+  
+### Features Left to Implement
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Donation button.
+* Adoption form.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Testing
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Deployment
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## Credits

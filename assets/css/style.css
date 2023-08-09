@@ -312,6 +312,7 @@ main {
     
     background-image: url("../images/latte-cat.jpg");
     background-size: cover;
+    
     background-position: 75%;
     width: 100%;
     padding: 20px 10% 0 10%;
@@ -342,7 +343,8 @@ main {
     border-radius: 2px;
     padding: 0 5px;
     box-sizing: border-box;
-    resize: vertical
+    resize: vertical;
+    
 
 }
 
@@ -366,7 +368,37 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #3f1e0e;
-    color: #fafafa;
+    color: #f
+afafa;
+}
+
+/* Thank you Page */
+
+#response {
+    height:230px;
+    width: 100%;
+    
+}
+
+.response-container {
+
+    height: 200px;
+    border: 5px solid #3f1e0e;
+    padding: 25px;
+    margin: 25px;
+    
+    border-radius: 5%;
+}
+
+.response_text {
+
+    font-size: 90%;
+    
+    line-height: 25px;
+}
+
+#response h3 {
+    margin-bottom: 8px;
 }
 
 /* footer */
@@ -535,6 +567,15 @@ footer h3 {
                       padding: 0 4px;
                   }
 
+    /* Thank you page */
+
+        .response-container {
+    
+            
+    
+            border-radius: 0;
+        }
+
     /* Footer */
 
     footer {
@@ -661,6 +702,13 @@ footer h3 {
             vertical-align: middle;
             width: 100%;
         }
+
+        /* Thank you page */
+
+                .response-container {
+        
+                    border: none;
+                }
 
     /* Footer */
 

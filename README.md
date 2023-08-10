@@ -1,5 +1,11 @@
 # Coffee & Meows
 
+---
+
+[Coffee & Meows](https://noeliaci.github.io/coffee-meows) is a website for a cat cafe in Dublin. Visitors can learn about what it is offered at the cafe and watch some pictures of the cats and facilities the place has. They can also get in touch through a contact form.
+
+![web on different screens](/assets/images/responsive-home.png)
+
 ## Features
 
 ### Existing Features

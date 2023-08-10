@@ -28,7 +28,9 @@
 
    * Mobile
   
-![Navbar for mobile](assets/images/navbar-mobile-closed.png)
+![Navbar for mobile](assets/images/navbar-mobile-closed.png) 
+
+     When the user clicks on the hamburger icon the menu expands.
 
 ![Navbar for mobile](assets/images/navbar-mobile-open.png)
 
@@ -51,12 +53,14 @@
   
 ![Welcome section](assets/images/welcom-section.png)
   
-  INSERT IMAGE
+
   
-* The Health Benefits Of Cats Section
-  * This section gives the user some information about how being around cats could be beneficial for health.
+#### The Health Benefits Of Cats Section
+  * This section gives the user some information about the benefits being around cats could bring to your health.
+  * The health benefits of cats section displays in two columns on desktops and large screens and in one column on tablets and mobiles.
+  * The health benefits of cats section contains four explained health benefits and two images of people interacting with cats.
   
-  INSERT IMAGE
+![Health benefits of cats section](assets/images/benefits-section.png)
   
 * House Rules Section
   * This section will give the user the guidelines for the best and safest experience when visiting the cafe.

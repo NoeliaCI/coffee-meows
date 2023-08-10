@@ -2,18 +2,39 @@
 
 ---
 
-[Coffee & Meows](https://noeliaci.github.io/coffee-meows) is a website for coffee and cat lovers looking for a space to relax. Visitors can learn about what it is offered at the cafe and watch some pictures of the cats and facilities the place has. They can also get in touch through a contact form.
+[Coffee & Meows](https://noeliaci.github.io/coffee-meows) is a website for coffee and cat lovers looking for a space to relax. Visitors can learn what it is offered at the cafe and also about the health benefits of interacting with cats. They can also watch some pictures of the cats and the facilities and get in touch through a contact form.
 
 ![web on different screens](/assets/images/am-i-responsive.png)
 
 ## Features
 
 ### Navigation Bar
+ 
+  - Positioned at the top of the page.
+  - Contains logo of the cafe on the left side.
+  - Navigation links are positioned on the right side:
+       * HOME - leads to the home page.
+       * GALLERY - leads to the gallery page.
+       * GET IN TOUCH - Leads to the get in touch page where the user can fill the contact form.
+- The link of the page where the user is currently on is underlined.
+- The navigation is clear and easy to understand for the user.
+- The navigation bar is responsive for all devices:
+   * Desktop
+![Navbar for desktop](/assets/images/navbar-desktop.png)
+   * Tablet
+![Navbar for tablet](/assets/images/navbar-tablet.png)
 
-* Navigation Bar  
-  * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact Us page and is identical in each page to allow easy navigation.
-  * This section allows the user to navigate from page to page across all devices without having to come back to the previous page.
-  
+   * Mobile
+![Navbar for mobile](assets/images/navbar-mobile-closed.png)
+![Navbar for mobile](assets/images/navbar-mobile-open.png)
+
+
+    
+
+
+
+ 
+
   INSERT IMAGE
   
 * Landing Page Image

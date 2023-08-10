@@ -27,7 +27,9 @@
 ![Navbar for tablet](assets/images/navbar-tablet.png)
 
    * Mobile
+  
 ![Navbar for mobile](assets/images/navbar-mobile-closed.png)
+
 ![Navbar for mobile](assets/images/navbar-mobile-open.png)
 
 ---
@@ -36,6 +38,7 @@
 
 * The hero section introduces the user to Coffee & Meows website with an animated background image to get their attention.
 * The hero section includes a cover text and box with the logo and a brief description of the business.
+
 ![Hero section](assets/images/hero-section.png)
 
 ---
@@ -43,7 +46,10 @@
 ### Home Page
 
   #### Welcome Section
-  * This section welcomes the user an gives an insight of what can be found in the cafe.
+  * This section welcomes the user an gives an insight of what type of drinks and food can be found at the cafe.
+  * The welcome section includes animated icons of paws and coffee cup.
+  
+![Welcome section](assets/images/welcom-section.png)
   
   INSERT IMAGE
   

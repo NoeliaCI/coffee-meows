@@ -1,10 +1,12 @@
 # Coffee & Meows
 
----
+
 
 [Coffee & Meows](https://noeliaci.github.io/coffee-meows) is a website for coffee and cat lovers looking for a space to relax. Visitors can learn what it is offered at the cafe and also about the health benefits of interacting with cats. They can also watch some pictures of the cats and the facilities and get in touch through a contact form.
 
 ![web on different screens](/assets/images/am-i-responsive.png)
+
+---
 
 ## Features
 
@@ -20,29 +22,27 @@
 - The navigation is clear and easy to understand for the user.
 - The navigation bar is responsive for all devices:
    * Desktop
-![Navbar for desktop](/assets/images/navbar-desktop.png)
+![Navbar for desktop](assets/images/navbar-desktop.png)
    * Tablet
-![Navbar for tablet](/assets/images/navbar-tablet.png)
+![Navbar for tablet](assets/images/navbar-tablet.png)
 
    * Mobile
 ![Navbar for mobile](assets/images/navbar-mobile-closed.png)
 ![Navbar for mobile](assets/images/navbar-mobile-open.png)
 
+---
 
-    
+### Hero Section
 
+* The hero section introduces the user to Coffee & Meows website with an animated background image to get their attention.
+* The hero section includes a cover text and box with the logo and a brief description of the business.
+![Hero section](assets/images/hero-section.png)
 
+---
 
- 
+### Home Page
 
-  INSERT IMAGE
-  
-* Landing Page Image
-  * This section introduces the user to Coffee & Meows with an animation to get their attention.
-
-INSERT IMAGE
-
-* Welcome Section
+  #### Welcome Section
   * This section welcomes the user an gives an insight of what can be found in the cafe.
   
   INSERT IMAGE

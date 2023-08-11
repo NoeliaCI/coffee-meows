@@ -83,9 +83,14 @@
 ![Gallery page](assets/images/gallery-section.png)
 
 #### Get In Touch Page
-  * This page will allow the user to contact the cafe for suggestions, queries or anything they need to know about the services provided.
+  * The get in touch page will allow the user to contact the cafe for suggestions, queries or anything they need.
+  * It contains a form with:
+    * Inputs for first name, last name and e-mail address.
+    * Text area for the user to write a message.
+    * Submit button to send the completed form.
+- Submitting the form leads to the hidden response page that contains thank you message.
   
-  INSERT IMAGE
+![Get in touch page](assets/images/contact-form.png)
   
 ### Features Left to Implement
 

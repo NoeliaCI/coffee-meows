@@ -62,12 +62,13 @@
   
 ![Health benefits of cats section](assets/images/benefits-section.png)
   
-* House Rules Section
-  * This section will give the user the guidelines for the best and safest experience when visiting the cafe.
+#### House Rules Section
+  * The House rules section will give the user the guidelines for the best and safest experience when visiting the cafe.
+  * The house rules section contains a list with paw icons inside a box.
   
-  INSERT IMAGE
+![House rules section](assets/images/house-rules-section.png)
   
-* Footer
+#### Footer
   * The footer section includes information about opening times and address.
   * It also includes links to the relevant social media sites which will open to a new tab to allow easy navigation for the user.
   * This section is featured on all three pages.

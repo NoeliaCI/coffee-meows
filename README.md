@@ -7,6 +7,20 @@
 ![web on different screens](/assets/images/am-i-responsive.png)
 
 ---
+## User Stories
+
+### First Time User Goals
+* As a first time user, I want to understand the purpose of the website, so I can learn about the business offered.
+* As a first time user, I want to easily navigate through the website, so I can find fast the information I need.
+* As a first time user, I want to locate the opening times, so I can plan a visit.
+
+### Returning User Goals
+* As a returning user, I want to see a gallery, so I can see the cats they have at the cafe.
+* As a returning user, I want to learn about the rules at the cafe, so I can have a better experience when visiting.
+* As a returning user, I want the website to have a contact form, so I can contact the cafe if needed.
+
+### Frequent User Goals
+* As a frequent user, I want the website to be responsive, so I can visit it from different devices.
 
 ## Features
 
@@ -75,6 +89,8 @@
 
 ![Footer section](assets/images/footer-section.png)
 
+---
+
 ### Gallery Page
   * The gallery provides the user with supporting images to see what the cafe environment looks like.
   * It allows the user to meet some of the cats they will find at the cafe.
@@ -82,20 +98,26 @@
 
 ![Gallery page](assets/images/gallery-section.png)
 
-#### Get In Touch Page
+---
+
+### Get In Touch Page
   * The get in touch page will allow the user to contact the cafe for suggestions, queries or anything they need.
   * It contains a form with:
     * Inputs for first name, last name and e-mail address.
     * Text area for the user to write a message.
     * Submit button to send the completed form.
-- Submitting the form leads to the hidden response page that contains thank you message.
+- Submitting the form leads to the hidden response page that contains a thank you message.
   
 ![Get in touch page](assets/images/contact-form.png)
+![Thank you response](assets/images/thankyou-section.png)
+
+---
   
 ### Features Left to Implement
 
 * Donation button.
 * Adoption form.
+* Drinks and snacks menu.
 
 ## Testing
 

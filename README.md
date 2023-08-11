@@ -69,19 +69,20 @@
 ![House rules section](assets/images/house-rules-section.png)
   
 #### Footer
-  * The footer section includes information about opening times and address.
-  * It also includes links to the relevant social media sites which will open to a new tab to allow easy navigation for the user.
+  * The footer section includes information about opening times, contact details and social links.
+  * The footer displays in three columns on desktops and tablets, and in one column on mobile devices.
   * This section is featured on all three pages.
 
- INSERT IMAGE
+![Footer section](assets/images/footer-section.png)
 
-* Gallery
+### Gallery Page
   * The gallery provides the user with supporting images to see what the cafe environment looks like.
-  * In this section the user will be able to know about the different activities and games they can do with the cats.
+  * It allows the user to meet some of the cats they will find at the cafe.
+  * The gallery is responsive and it displays in three columns on desktops and tablets, and in one column on mobile devices.
 
-   INSERT IMAGE
+![Gallery page](assets/images/gallery-section.png)
 
-* Get In Touch Page
+#### Get In Touch Page
   * This page will allow the user to contact the cafe for suggestions, queries or anything they need to know about the services provided.
   
   INSERT IMAGE

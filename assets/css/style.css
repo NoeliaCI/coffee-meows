@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+
     color: #3f1e0e;
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -111,14 +111,14 @@ main {
 
     flex: 1 0 auto;
     margin-top: 95px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 
 }
 
 /* Hero section */
 
 #hero {
-    height: 300px;
+    height: 280px;
     width: 95.2%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
 
@@ -202,7 +202,7 @@ main {
 #food-menu h2 {
     text-align: center;
     margin-top: 40px;
-   
+
 }
 
 
@@ -228,12 +228,12 @@ main {
     color: white;
     text-align: center;
     border-radius: 10px;
-    
+
 }
 
 .menu-item:hover {
     transform: scale(1.1);
-    
+
 }
 
 /* Cat benefits section */
@@ -293,6 +293,7 @@ main {
 
 #gallery {
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .row {
@@ -320,33 +321,25 @@ main {
 
 /* House rules Page*/
 
-/* House rules section */
-
 #house-rules {
 
     display: flex;
-        flex-flow: column;
-        align-items: center;
-   background-image: url("/assets/images/cat-background.jpg");
-   background-position: right center;
+    flex-flow: column;
+    align-items: center;
+    background-image: url("/assets/images/cat-background.jpg");
+    background-position: right center;
     background-size: 100%;
     width: 100%;
-    padding: 10px 20ox 10px 20px;
-    border-radius: 10px;
-    
-    
-    
-
 
 }
 
 #house-rules h2 {
+
     color: #3f1e0e;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
-    margin-top: 15px;
-
-
+    margin-top: 25px;
+    padding-right: 25%;
 }
 
 #house-rules-text li {
@@ -355,13 +348,13 @@ main {
 
 #house-rules-text {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content: flex-start;
     width: 80%;
     font-size: 100%;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-right: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-right: 50px;
     line-height: 30px;
     color: black;
@@ -397,6 +390,7 @@ main {
     padding: 30px;
 
 
+
 }
 
 #message {
@@ -429,7 +423,7 @@ main {
 
 
 .send-button {
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
@@ -441,11 +435,11 @@ main {
 
 #response {
     width: 100vw;
-        height: 100vh;
+    height: 100vh;
     background-image: url("../images/latte-cat.jpg");
     background-size: cover;
     background-position: 85%;
-    
+
     padding: 20px 10% 1px 10%;
     margin-top: 5%;
 
@@ -480,7 +474,7 @@ footer {
     flex-direction: column;
     height: auto;
     width: 100%;
-    margin-top: auto;
+    margin-top: -10px;
     background-color: #3f1e0e;
     color: rgb(231, 227, 227);
     padding-top: 0;
@@ -535,6 +529,20 @@ footer h3 {
     main {
         margin-top: auto;
     }
+
+    /* Get In Touch page */
+
+        #get-in-touch {
+    
+            background-image: url("../images/latte-cat.jpg");
+            background-size: cover;
+    
+            background-position: 75%;
+            width: 100%;
+            padding: 20px 10% 0 10%;
+            margin-top: 0;
+            flex-grow: 1;
+        }
 }
 
 /* Media query for tablets and larger screens (768px and up) */
@@ -605,11 +613,11 @@ footer h3 {
     }
 
     .menu-container {
-            display: flex;
-            flex-flow: row;
-            align-items: center;
-            justify-content: space-evenly;
-        }
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
     /* Cats benefits section */
 
@@ -638,7 +646,7 @@ footer h3 {
 
 
 
-    
+
 
     /* Gallery page */
     .column {
@@ -646,6 +654,34 @@ footer h3 {
         max-width: 50%;
         padding: 0 4px;
     }
+
+    /* House Rules Page */
+
+    #house-rules {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("/assets/images/cat-background.jpg");
+        background-position: right center;
+        background-size: 98%;
+
+        width: 100%;
+    }
+
+        /* Get In Touch page */
+    
+        #get-in-touch {
+    
+            background-image: url("../images/latte-cat.jpg");
+            background-size: cover;
+    
+            background-position: 75%;
+            width: 100%;
+            padding: 20px 10% 0 10%;
+            margin-top: 0;
+            flex-grow: 1;
+        }
 
     /* Thank you page */
 

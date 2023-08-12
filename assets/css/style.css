@@ -111,7 +111,7 @@ main {
 
     flex: 1 0 auto;
     margin-top: 95px;
-    margin-bottom: 25px;
+    margin-bottom: 0;
 
 }
 
@@ -285,44 +285,7 @@ main {
 
 }
 
-/* House rules section */
 
-#house-rules {
-    width: 90%;
-    margin: auto;
-    border: 2px solid #3f1e0e;
-    justify-items: center;
-
-
-}
-
-#house-rules h2 {
-    color: #3f1e0e;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 15px;
-
-
-}
-
-#house-rules-text li {
-    list-style-type: none;
-}
-
-#house-rules-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
-    font-size: 100%;
-    padding-left: 40px;
-    margin-bottom: 10px;
-    line-height: 25px;
-    color: black;
-
-
-
-}
 
 /* Gallery page */
 
@@ -351,6 +314,58 @@ main {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+
+/* House rules Page*/
+
+/* House rules section */
+
+#house-rules {
+
+    display: flex;
+        flex-flow: column;
+        align-items: center;
+   background-image: url("/assets/images/cat-background.jpg");
+   background-position: right center;
+    background-size: 100%;
+    width: 100%;
+    padding: 10px 20ox 10px 20px;
+    border-radius: 10px;
+    
+    
+    
+
+
+}
+
+#house-rules h2 {
+    color: #3f1e0e;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+
+}
+
+#house-rules-text li {
+    list-style-type: none;
+}
+
+#house-rules-text {
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    font-size: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    line-height: 30px;
+    color: black;
+
+
+
 }
 
 /* Get in touch page */
@@ -621,14 +636,7 @@ footer h3 {
 
 
 
-    /* House rules section */
-
-    #house-rules-text {
-        width: 80%;
-        font-size: 100%;
-        text-align: left;
-        margin-left: 40px;
-    }
+    
 
     /* Gallery page */
     .column {

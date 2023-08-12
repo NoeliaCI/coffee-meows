@@ -111,7 +111,7 @@ main {
 
     flex: 1 0 auto;
     margin-top: 95px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 
 }
 
@@ -202,8 +202,9 @@ main {
 #food-menu h2 {
     text-align: center;
     margin-top: 40px;
-    
+   
 }
+
 
 #food-menu h3 {
     margin-top: 40px;
@@ -218,6 +219,7 @@ main {
 
 .menu-item {
     background-color: #3f1e0e;
+    opacity: 0.7;
     padding: 5px;
     width: 200px;
     height: 300px;

@@ -326,7 +326,7 @@ main {
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-image: url("/assets/images/cat-background.jpg");
+    background-image: url("../images/cat-background.jpg");
     background-position: right center;
     background-size: 100%;
     width: 100%;

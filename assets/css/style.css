@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
+    
     color: #3f1e0e;
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -195,6 +195,43 @@ main {
     margin-top: 50px;
     letter-spacing: 10px;
 
+}
+
+/* Menu Section */
+
+#menu h2 {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+#menu h3 {
+    margin-top: 40px;
+}
+
+.menu-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    background-color: #3f1e0e;
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    margin: 20px 50px 20px 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    
 }
 
 /* Cat benefits section */

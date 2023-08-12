@@ -20,7 +20,7 @@
 * As a returning user, I want the website to have a contact form, so I can contact the cafe if needed.
 
 ### Frequent User Goals
-* As a frequent user, I want the website to be responsive, so I can visit it from different devices.
+* As a frequent user, I want the website to be responsive, so I can visit it from different devices.yyyhhj
 
 ## Features
 

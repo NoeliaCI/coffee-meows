@@ -1,164 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head -->
+  <!-- Head -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Meta tags for search engines-->
 
-    <meta name="description" content="Cat Cafe for cat lovers in Dublin, Ireland">
-    <meta name="keywords" content="cat cafe, cat lovers, coffee, ireland, dublin">
+    <meta
+      name="description"
+      content="Cat Cafe for cat lovers in Dublin, Ireland"
+    />
+    <meta
+      name="keywords"
+      content="cat cafe, cat lovers, coffee, ireland, dublin"
+    />
 
-    <meta name="author" content="Noelia Hurtado Gomez">
+    <meta name="author" content="Noelia Hurtado Gomez" />
 
     <title>Coffee & Meows</title>
 
     <!-- Favicon link-->
 
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
 
     <!-- Stylesheet -->
 
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<!-- Body -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <!-- Body -->
 
-<body>
+  <body>
     <header>
-        <!-- Logo -->
-        <a href="index.html">
-            <h1 id="logo">Coffee & Meows</h1>
-        </a>
-        <!-- Navigation bar section -->
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html"  aria-label="Go to the Home Page">Home</a></li>
-                <li><a href="gallery.html" aria-label="Go to the Gallery">Gallery</a></li>
-                <li><a href="get-in-touch.html" class="active" aria-label="Go to the Get In Touch Page">Get In Touch</a></li>
-            </ul>
-        </nav>
+      <!-- Logo -->
+      <a href="index.html">
+        <h1 id="logo">Coffee & Meows</h1>
+      </a>
+      <!-- Navigation bar section -->
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html" aria-label="Go to the Home Page">Home</a>
+          </li>
+          <li>
+            <a href="gallery.html" aria-label="Go to the Gallery">Gallery</a>
+          </li>
+          <li>
+            <a
+              href="get-in-touch.html"
+              class="active"
+              aria-label="Go to the Get In Touch Page"
+              >Get In Touch</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- Main Section -->
     <main>
-        <section id="hero">
-            <!-- Cover text for hero image -->
-            <div id="cover-text">
-                <h2>Coffee & Meows</h2>
-                <h3>Cat Cafe in the heart of Dublin</h3>
-            </div>
-        </section>
-        <!-- Contact form section -->
-        <section id="get-in-touch">
-            <form id="contact-form" method="GET" action="thankyou.html">
-                <h2>Give Us A Meow!</h2>
-                <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
-                <br>
-                <label for="email_address">Email Address</label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required>
-                <br>
-                <label for="message">Message</label>
-                <textarea name="message" id="message" placeholder="Write your message here..." rows="10" cols="40" maxlength="2000"
-                    required></textarea>
-                <br>
-                <button type="submit" class="send-button">Send</button>
-        
-            </form>
-        </section>        
+      <section id="hero">
+        <!-- Cover text for hero image -->
+        <div id="cover-text">
+          <h2>Coffee & Meows</h2>
+          <h3>Cat Cafe in the heart of Dublin</h3>
+        </div>
+      </section>
+      <!-- Contact form section -->
+      <section id="get-in-touch">
+        <form id="contact-form" method="GET" action="thankyou.html">
+          <h2>Give Us A Meow!</h2>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Write your message here..."
+            rows="10"
+            cols="40"
+            maxlength="2000"
+            required
+          ></textarea>
+          <br />
+          <button type="submit" class="send-button">Send</button>
+        </form>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer>
+      <div>
+        <!-- Opening hours section -->
+        <h3>Opening Hours</h3>
+        <table class="openings">
+          <tr>
+            <th>Sun</th>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <th>Mon</th>
+            <td>9am - 5pm</td>
+          </tr>
+          <tr>
+            <th>Tue</th>
+            <td>9am - 5pm</td>
+          </tr>
+          <tr>
+            <th>Wed</th>
+            <td>9am - 5pm</td>
+          </tr>
+          <tr>
+            <th>Thu</th>
+            <td>9am - 5pm</td>
+          </tr>
+          <tr>
+            <th>Fri</th>
+            <td>9am - 5pm</td>
+          </tr>
+        </table>
+      </div>
+      <!-- Contact section -->
+      <div>
+        <h3>Contact</h3>
+
         <div>
-            <!-- Opening hours section -->
-            <h3>Opening Hours</h3>
-            <table class="openings">
-                <tr>
-                    <th>Sun</th>
-                    <td>Closed</td>
-                </tr>
-                <tr>
-                    <th>Mon</th>
-                    <td>9am - 5pm</td>
-                </tr>
-                <tr>
-                    <th>Tue</th>
-                    <td>9am - 5pm</td>
-                </tr>
-                <tr>
-                    <th>Wed</th>
-                    <td>9am - 5pm</td>
-                </tr>
-                <tr>
-                    <th>Thu</th>
-                    <td>9am - 5pm</td>
-                </tr>
-                <tr>
-                    <th>Fri</th>
-                    <td>9am - 5pm</td>
-                </tr>
-            </table>
+          <a
+            href="http://maps.google.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Find us on google maps"
+            ><i class="fas fa-map-marker-alt"></i> 25 Paws Street, Dublin,
+            Ireland</a
+          >
         </div>
-        <!-- Contact section -->
         <div>
-            <h3>Contact</h3>
-
-            <div>
-                <a href="http://maps.google.com" target="_blank" rel="noopener" aria-label="Find us on google maps"><i
-                        class="fas fa-map-marker-alt"></i> 25 Paws Street, Dublin, Ireland</a>
-
-            </div>
-            <div>
-                <a href="tel:+012345678" target="_blank" rel="noopener" aria-label="Give us a call"><i
-                        class="fas fa-phone-alt"></i> 01 234 5678</a>
-
-
-            </div>
-            <div>
-                <a href="mailto:info@coffeeandmeows.com" target="_blank" rel="noopener"
-                    aria-label="Send us an e-mail"><i class="fas fa-envelope"></i> info@coffeeandmeows.com</a>
-            </div>
+          <a
+            href="tel:+012345678"
+            target="_blank"
+            rel="noopener"
+            aria-label="Give us a call"
+            ><i class="fas fa-phone-alt"></i> 01 234 5678</a
+          >
         </div>
-        <!-- Social links section -->
         <div>
-            <h3>Follow Us</h3>
-            <div>
-                <ul>
-                    <li>
-                        <a href="https://facebook.com" target="_blank" rel="noopener"
-                            aria-label="Visit Our Facebook page (opens in a new tab)"><i
-                                class="fa-brands fa-square-facebook fa-lg" style="color: rgb(231, 227, 227)"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener"
-                            aria-label="Visit Our Twitter page (opens in a new tab)"><i
-                                class="fa-brands fa-square-twitter fa-lg" style="color: rgb(231, 227, 227)"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener"
-                            aria-label="Visit Our Instagram page (opens in a new tab)"><i
-                                class="fa-brands fa-square-instagram fa-lg" style="color: rgb(231, 227, 227)"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://youtube.com" target="_blank" rel="noopener"
-                            aria-label="Visit Our YouTube page (opens in a new tab)"><i
-                                class="fa-brands fa-square-youtube fa-lg" style="color: rgb(231, 227, 227)"></i></a>
-                    </li>
-                </ul>
-            </div>
+          <a
+            href="mailto:info@coffeeandmeows.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Send us an e-mail"
+            ><i class="fas fa-envelope"></i> info@coffeeandmeows.com</a
+          >
         </div>
+      </div>
+      <!-- Social links section -->
+      <div>
+        <h3>Follow Us</h3>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit Our Facebook page (opens in a new tab)"
+                ><i
+                  class="fa-brands fa-square-facebook fa-lg"
+                  style="color: rgb(231, 227, 227)"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit Our Twitter page (opens in a new tab)"
+                ><i
+                  class="fa-brands fa-square-twitter fa-lg"
+                  style="color: rgb(231, 227, 227)"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit Our Instagram page (opens in a new tab)"
+                ><i
+                  class="fa-brands fa-square-instagram fa-lg"
+                  style="color: rgb(231, 227, 227)"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit Our YouTube page (opens in a new tab)"
+                ><i
+                  class="fa-brands fa-square-youtube fa-lg"
+                  style="color: rgb(231, 227, 227)"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
     <!-- Font awesome script-->
 
-    <script src="https://kit.fontawesome.com/56057ee4fe.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/56057ee4fe.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

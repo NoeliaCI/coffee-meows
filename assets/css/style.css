@@ -662,7 +662,7 @@ footer h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-image: url("/assets/images/cat-background.jpg");
+        background-image: url("../images/cat-background.jpg");
         background-position: right center;
         background-size: 98%;
 

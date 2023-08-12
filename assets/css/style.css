@@ -199,13 +199,13 @@ main {
 
 /* Menu Section */
 
-#menu h2 {
+#food-menu h2 {
     text-align: center;
     margin-top: 40px;
     
 }
 
-#menu h3 {
+#food-menu h3 {
     margin-top: 40px;
 }
 
@@ -579,6 +579,21 @@ footer h3 {
         line-height: 25px;
     }
 
+    /* Menu Section */
+
+    #food-menu h2 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .menu-container {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
     /* Cats benefits section */
 
     #cat-benefits {
@@ -666,7 +681,7 @@ footer h3 {
 
 @media screen and (min-width: 968px) {
 
-    /* Menu links */
+    /* Navigation Menu links */
 
     #menu a:hover {
         border-bottom: 1px solid #3f1e0e;

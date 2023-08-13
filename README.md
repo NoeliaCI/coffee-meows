@@ -106,6 +106,8 @@
   
 ![House rules section](assets/documentation/rules-page.png)
 
+---
+
 ### Get In Touch Page
   * The get in touch page will allow the user to contact the cafe for suggestions, queries or anything they need.
   * It contains a form with:
@@ -133,8 +135,20 @@
 * Favicon
 * Font Awesome Icons
 
+---
 
-## Testing
+
+# Testing
+
+* I tested that this web page works in different browsers: Chrome, Firefox, Safari.
+* I used devtools device toolbar to confirm the the website is responsive and looks good on standard screen sizes.
+* I tested all the links and confirmed that they work and lead where they should.
+* I tested the contact form: confirmed that the error messages appear when the fields are empty, that the submit button works and that once submitted leads to the response page.
+
+## Validator Testing
+* HTML
+  * N
+
 
 ## Deployment
 

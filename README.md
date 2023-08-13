@@ -99,10 +99,10 @@
 
 ---
 
-#### House Rules Section
+### House Rules Page
 
-* The House rules section will give the user the guidelines for the best and safest experience when visiting the cafe.
-* The house rules section contains a list with paw icons inside a box.
+* The House rules page will give the user the guidelines for the best and safest experience when visiting the cafe.
+* The house rules page contains a list with paw icons over a cat themed background.
   
 ![House rules section](assets/documentation/rules-page.png)
 
@@ -123,6 +123,16 @@
 
 * Donation button.
 * Adoption form.
+---
+  
+### Technologies Used
+
+* HTML
+* CSS
+* Google Fonts
+* Favicon
+* Font Awesome Icons
+
 
 ## Testing
 

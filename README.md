@@ -141,16 +141,42 @@
 # Testing
 
 * I tested that this web page works in different browsers: Chrome, Firefox, Safari.
-* I used devtools device toolbar to confirm the the website is responsive and looks good on standard screen sizes.
+* I used devtools device toolbar to confirm that the website is responsive and looks good on all standard screen sizes.
 * I tested all the links and confirmed that they work and lead where they should.
 * I tested the contact form: confirmed that the error messages appear when the fields are empty, that the submit button works and that once submitted leads to the response page.
 
 ## Validator Testing
 * HTML
   * Two errors were initially found related to stray closing tags. After fixing this, no more errors were found when passing through the official W3C validator.
+  
+![Html validator errors](assets/documentation/html-validator-errors.png)
+![Html validator no errors](assets/documentation/html-validator-no-errors.png)
 
+* CSS
+  * No errors were found when passing through the official Jigsaw validator.
 
+![Css validator](assets/documentation/css-validator.png)
 
+## Lighthouse Testing
+* I confirmed that the colors and fonts chosen are accesible by running it through lighthouse in devtools.
+  
+   * Home Page 
+  ![Home page accesibility](assets/documentation/lighthouse-home.png)
+
+   * Gallery Page
+  ![Gallery page accesibility](assets/documentation/lighthouse-gallery.png)
+  
+   * House Rules Page
+  ![House Rules page accesibility](assets/documentation/lighthouse-house-rules.png)
+
+   * Get In Touch Page
+  ![Get in touch page accesibility](assets/documentation/lighthouse-get-in-touch.png)
+  
+   * Thank You Page
+  ![Thank you page accesibility](assets/documentation/lighthouse-thankyou.png)
+
+### Bugs
+#### Solved bugs
 
 ## Deployment
 

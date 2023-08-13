@@ -147,7 +147,9 @@
 
 ## Validator Testing
 * HTML
-  * N
+  * Two errors were initially found related to stray closing tags. After fixing this, no more errors were found when passing through the official W3C validator.
+
+
 
 
 ## Deployment

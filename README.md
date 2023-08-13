@@ -79,14 +79,14 @@
   * The health benefits of cats section displays in two columns on desktops and large screens and in one column on tablets and mobiles.
   * The health benefits of cats section contains four explained health benefits and two images of people interacting with cats.
   
-![Health benefits of cats section](assets/images/benefits-section.png)  
+![Health benefits of cats section](assets/documentation/benefits-section.png)  
   
 #### Footer
   * The footer section includes information about opening times, contact details and social links.
   * The footer displays in three columns on desktops and tablets, and in one column on mobile devices.
   * This section is featured on all three pages.
 
-![Footer section](assets/images/footer-section.png)
+![Footer section](assets/documentation/footer-section.png)
 
 ---
 
@@ -95,7 +95,7 @@
   * It allows the user to meet some of the cats they will find at the cafe.
   * The gallery is responsive and it displays in three columns on desktops and tablets, and in one column on mobile devices.
 
-![Gallery page](assets/images/gallery-section.png)
+![Gallery page](assets/documentation/gallery-page.png)
 
 ---
 

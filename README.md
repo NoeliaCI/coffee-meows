@@ -131,9 +131,9 @@
 
 * HTML
 * CSS
-* Google Fonts
-* Favicon
-* Font Awesome Icons
+* [Google Fonts](https://fonts.google.com/)
+* [Favicon](https://favicon.io/)
+* Icons from [Font Awesome](https://fontawesome.com/)
 
 ---
 
@@ -188,5 +188,7 @@
   * Select the Main Branch from the source menu and click save.
   * The page will refresh and a message with successful deployment will display if anything went wrong.
 * The website can also be accessed by the live link here: [Coffee & Meows](https://noeliaci.github.io/coffee-meows/)
+---
 
-## Credits
+# Credits
+

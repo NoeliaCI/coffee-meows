@@ -177,7 +177,16 @@
 
 ### Bugs
 #### Solved bugs
+* After deploying the website I found out that the images were broken in the gallery page. This was due to absolute file paths. I fixed it removing the initial slash and making the file paths relative.
 
-## Deployment
+#### Unsolved bugs
+* None.
+---
+# Deployment
+* This website was deployed to GitHub pages. The steps to deploy are the following:
+  * In the [GitHub repository](https://https://github.com/NoeliaCI/coffee-meows), go to the settings tab.
+  * Select the Main Branch from the source menu and click save.
+  * The page will refresh and a message with successful deployment will display if anything went wrong.
+* The website can also be accessed by the live link here: [Coffee & Meows](https://noeliaci.github.io/coffee-meows/)
 
 ## Credits

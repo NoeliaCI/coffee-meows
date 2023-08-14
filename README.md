@@ -2,7 +2,7 @@
 
 
 
-[Coffee & Meows](https://noeliaci.github.io/coffee-meows) is a website for coffee and cat lovers looking for a space to relax. Visitors can learn what it is offered at the cafe and also about the health benefits of interacting with cats. They can also watch some pictures of the cats and the facilities and get in touch through a contact form.
+[Coffee & Meows](https://noeliaci.github.io/coffee-meows) is a website for coffee and cat lovers looking for a space to relax. Visitors can learn what it is offered at the cafe and about the health benefits of interacting with cats. They can also watch some pictures of the cats and the facilities and get in touch through a contact form.
 
 ![web on different screens](/assets/documentation/am-i-responsive.png)
 
@@ -11,7 +11,7 @@
 
 ### First Time User Goals
 * As a first time user, I want to understand the purpose of the website, so I can learn about the business offered.
-* As a first time user, I want to easily navigate through the website, so I can find fast the information I need.
+* As a first time user, I want to easily navigate through the website, so I can quickly find the information I need.
 * As a first time user, I want to locate the opening times, so I can plan a visit.
 
 ### Returning User Goals
@@ -27,7 +27,7 @@
 ### Navigation Bar
  
   - Positioned at the top of the page.
-  - Contains logo of the cafe on the left side.
+  - Contains the logo of the cafe on the left side.
   - Navigation links are positioned on the right side:
        * HOME - leads to the home page.
        * GALLERY - leads to the gallery page.
@@ -63,8 +63,8 @@
 ### Home Page
 
   #### Welcome Section
-  * This section welcomes the user an gives an insight of what type of drinks and food can be found at the cafe.
-  * The welcome section includes animated icons of paws and coffee cup.
+  * This section welcomes the user and gives an insight of what type of drinks and food can be found at the cafe.
+  * The welcome section includes animated icons of paws and a coffee cup.
   
 ![Welcome section](assets/documentation/welcom-section.png)
   
@@ -152,32 +152,32 @@
 ![Html validator errors](assets/documentation/html-validator-errors.png)
 ![Html validator no errors](assets/documentation/html-validator-no-errors.png)
 
-* CSS
+CSS* CSS
   * No errors were found when passing through the official Jigsaw validator.
 
 ![Css validator](assets/documentation/css-validator.png)
 
 ## Lighthouse Testing
-* I confirmed that the colors and fonts chosen are accesible by running it through lighthouse in devtools.
+* I confirmed that the colors and fonts chosen are accessible by running it through lighthouse in devtools.
   
    * Home Page 
-  ![Home page accesibility](assets/documentation/lighthouse-home.png)
+  ![Home page accessibility](assets/documentation/lighthouse-home.png)
 
    * Gallery Page
-  ![Gallery page accesibility](assets/documentation/lighthouse-gallery.png)
+  ![Gallery page accessibility](assets/documentation/lighthouse-gallery.png)
   
    * House Rules Page
-  ![House Rules page accesibility](assets/documentation/lighthouse-house-rules.png)
+  ![House Rules page accessibility](assets/documentation/lighthouse-house-rules.png)
 
    * Get In Touch Page
-  ![Get in touch page accesibility](assets/documentation/lighthouse-get-in-touch.png)
+  ![Get in touch page accessibility](assets/documentation/lighthouse-get-in-touch.png)
   
    * Thank You Page
-  ![Thank you page accesibility](assets/documentation/lighthouse-thankyou.png)
+  ![Thank you page accessibility](assets/documentation/lighthouse-thankyou.png)
 
 ### Bugs
 #### Solved bugs
-* After deploying the website I found out that the images were broken in the gallery page. This was due to absolute file paths. I fixed it removing the initial slash and making the file paths relative.
+* After deploying the website I found out that the images were broken in the gallery page. This was due to absolute file paths. I fixed it by removing the initial slash and making the file paths relative.
 
 #### Unsolved bugs
 * None.

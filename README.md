@@ -74,7 +74,7 @@
   
 ![Menu section](assets/documentation/menu-section.png)
   
-#### The Health Benefits Of Cats Section
+#### Health Benefits Of Cats Section
   * This section gives the user some information about the benefits being around cats could bring to your health.
   * The health benefits of cats section displays in two columns on desktops and large screens and in one column on tablets and mobiles.
   * The health benefits of cats section contains four explained health benefits and two images of people interacting with cats.
@@ -84,7 +84,7 @@
 #### Footer
   * The footer section includes information about opening times, contact details and social links.
   * The footer displays in three columns on desktops and tablets, and in one column on mobile devices.
-  * This section is featured on all three pages.
+  * This section is featured on all the pages.
 
 ![Footer section](assets/documentation/footer-section.png)
 
@@ -101,7 +101,7 @@
 
 ### House Rules Page
 
-* The House rules page will give the user the guidelines for the best and safest experience when visiting the cafe.
+* The house rules page will give the user the guidelines for the best and safest experience when visiting the cafe.
 * The house rules page contains a list with paw icons over a cat themed background.
   
 ![House rules section](assets/documentation/rules-page.png)
@@ -152,7 +152,7 @@
 ![Html validator errors](assets/documentation/html-validator-errors.png)
 ![Html validator no errors](assets/documentation/html-validator-no-errors.png)
 
-CSS* CSS
+* CSS
   * No errors were found when passing through the official Jigsaw validator.
 
 ![Css validator](assets/documentation/css-validator.png)
@@ -184,7 +184,7 @@ CSS* CSS
 ---
 # Deployment
 * This website was deployed to GitHub pages. The steps to deploy are the following:
-  * In the [GitHub repository](https://https://github.com/NoeliaCI/coffee-meows), go to the settings tab.
+  * In the [GitHub repository](https://github.com/NoeliaCI/coffee-meows), go to the settings tab.
   * Select the Main Branch from the source menu and click save.
   * The page will refresh and a message with successful deployment will display if anything went wrong.
 * The website can also be accessed by the live link here: [Coffee & Meows](https://noeliaci.github.io/coffee-meows/)

@@ -317,6 +317,7 @@ main {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+   
     
     
 }
@@ -376,7 +377,7 @@ main {
     width: 100%;
     padding: 20px 10% 0 10%;
     margin-top: 5%;
-    flex-grow: 1;
+   
 }
 
 /* Contact form */
@@ -387,12 +388,10 @@ main {
 }
 
 #contact-form {
+
     color: #fefefe;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-
-
-
+    padding: 20px; 
 }
 
 #message {
@@ -407,8 +406,9 @@ main {
     box-sizing: border-box;
     resize: vertical;
 
-
 }
+
+
 
 .text-input {
 
@@ -673,19 +673,8 @@ footer h3 {
         width: 100%;
     }
 
-        /* Get In Touch page */
-    
-        #get-in-touch {
-    
-            background-image: url("../images/latte-cat.jpg");
-            background-size: cover;
-    
-            background-position: 75%;
-            width: 100%;
-            padding: 20px 10% 0 10%;
-            
-           
-        }
+   
+               
 
     /* Thank you page */
 
@@ -700,7 +689,7 @@ footer h3 {
 
         .response-container {
             margin-top: 30px;
-            border-radius: 0;
+            
         }
     /* Footer */
 
@@ -742,6 +731,7 @@ footer h3 {
     #menu a:hover {
         border-bottom: 1px solid #3f1e0e;
     }
+    
 
     /* Cover text in hero image */
 
@@ -820,7 +810,7 @@ footer h3 {
         vertical-align: middle;
         width: 100%;
     }
-/* House rules section */
+/* House rules page */
 
 #house-rules-text {
     width: 75%;
@@ -841,6 +831,14 @@ footer h3 {
     width: 100%;
 }
 
+ /* Get In Touch page */
+
+ #get-in-touch {
+     
+     margin-top: 0;
+     
+
+ }
 
     /* Thank you page */
 

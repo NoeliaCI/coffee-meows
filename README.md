@@ -146,10 +146,16 @@
 * I used devtools device toolbar to confirm that the website is responsive and looks good on all standard screen sizes.
 * I tested all the links and confirmed that they work and lead where they should.
 * I tested the contact form: confirmed that the error messages appear when the fields are empty, that the submit button works and that once submitted leads to the response page.
+  
+## Responsiveness Testing
+ * Mobile Phones
+
+![Responsiveness on mobile phones](assets/documentation/mobile-home.png) ![Responsiveness on mobile phones](assets/documentation/mobile-gallery.png) ![Responsiveness on mobile phones](assets/documentation/mobile-get-in-touch.png) ![Responsiveness on mobile phones](assets/documentation/mobile-rules.png) ![Responsiveness on mobile phones](assets/documentation/mobile-thankyou.png)
+ 
 
 ## Validator Testing
 * HTML
-  * No errors were found when passing home page through the official W3C validator.
+  * No errors were found when passing all the pages through the official W3C validator.
   
 ![Home page validator](assets/documentation/html-validator-no-errors.png)
 ![Gallery page validator](assets/documentation/gallery-code-check.png)

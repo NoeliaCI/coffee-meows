@@ -148,10 +148,27 @@
 * I tested the contact form: confirmed that the error messages appear when the fields are empty, that the submit button works and that once submitted leads to the response page.
   
 ## Responsiveness Testing
- * Mobile Phones
+* Mobile Phones
 
-![Responsiveness on mobile phones](assets/documentation/mobile-home.png) ![Responsiveness on mobile phones](assets/documentation/mobile-gallery.png) ![Responsiveness on mobile phones](assets/documentation/mobile-get-in-touch.png) ![Responsiveness on mobile phones](assets/documentation/mobile-rules.png) ![Responsiveness on mobile phones](assets/documentation/mobile-thankyou.png)
- 
+![Responsiveness on mobile phones](assets/documentation/mobile-home.png)  
+![Responsiveness on mobile phones](assets/documentation/mobile-gallery.png)   
+![Responsiveness on mobile phones](assets/documentation/mobile-get-in-touch.png)   
+![Responsiveness on mobile phones](assets/documentation/mobile-rules.png)   
+![Responsiveness on mobile phones](assets/documentation/mobile-thankyou.png)
+
+* Tablets
+![Responsiveness on tablets](assets/documentation/tablet-home.png) 
+![Responsiveness on tablets](assets/documentation/tablet-gallery.png)
+![Responsiveness on tablets](assets/documentation/tablet-rules.png)
+![Responsiveness on tablets](assets/documentation/tablet-get-in-touch.png)
+![Responsiveness on tablets](assets/documentation/tablet-thankyou.png)
+
+* Desktops
+![Responsiveness on desktops](assets/documentation/laptop-home.png)
+![Responsiveness on desktops](assets/documentation/laptop-gallery.png)
+![Responsiveness on desktops](assets/documentation/laptop-rules.png)
+![Responsiveness on desktops](assets/documentation/laptop-get-in-touch.png)
+![Responsiveness on desktops](assets/documentation/laptop-thankyou.png)
 
 ## Validator Testing
 * HTML

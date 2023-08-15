@@ -149,10 +149,13 @@
 
 ## Validator Testing
 * HTML
-  * Two errors were initially found related to stray closing tags. After fixing this, no more errors were found when passing through the official W3C validator.
+  * No errors were found when passing home page through the official W3C validator.
   
-![Html validator errors](assets/documentation/html-validator-errors.png)
-![Html validator no errors](assets/documentation/html-validator-no-errors.png)
+![Home page validator](assets/documentation/html-validator-no-errors.png)
+![Gallery page validator](assets/documentation/gallery-code-check.png)
+![Rules page validator](assets/documentation/rules-code-check.png)
+![Get in touch page validator](assets/documentation/get-in-touch-code-check.png)
+![Thank you page validator](assets/documentation/thankyou-code-check.png)
 
 * CSS
   * No errors were found when passing through the official Jigsaw validator.

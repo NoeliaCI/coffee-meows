@@ -221,7 +221,7 @@
 * This website was deployed to GitHub pages. The steps to deploy are the following:
   * In the [GitHub repository](https://github.com/NoeliaCI/coffee-meows), go to the settings tab.
   * Select the Main Branch from the source menu and click save.
-  * The page will refresh and a message with successful deployment will display if anything went wrong.
+  * The page will refresh and a message with successful deployment will display if nothing went wrong.
 * The website can also be accessed by the live link here: [Coffee & Meows](https://noeliaci.github.io/coffee-meows/).
 ---
 
@@ -240,7 +240,7 @@
 * The icons used in the website are from [Font Awesome](https://fontawesome.com/) and [Favicon](https://favicon.io/).
   
 ## Acknowledgements
-* I would like to thank my mentor Aleksei Konovalov for all the feedback and support in this project.
+* I would like to thank my mentor Aleksei Konovalov for all the feedback and support he gave me for this project.
 * I would like to thank the slack community for all the good stuff posted there.
 * I would like to thank Laura Mayock from CI for all the tips and resources shared with us.
 

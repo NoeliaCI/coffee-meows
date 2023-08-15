@@ -142,19 +142,25 @@
 
 # Testing
 
-* I tested that this web page works in different browsers: Chrome, Firefox, Safari.
+* I tested that this web page works in different browsers: Chrome, Firefox, Edge.
 * I used devtools device toolbar to confirm that the website is responsive and looks good on all standard screen sizes.
 * I tested all the links and confirmed that they work and lead where they should.
 * I tested the contact form: confirmed that the error messages appear when the fields are empty, that the submit button works and that once submitted leads to the response page.
+
+## Browser Testing
+* Chrome
+![Chrome testing](assets/documentation/chrome-testing.png)
+
+* Firefox
+![Firefox testing](assets/documentation/firefox-testing.png)
+
+* Edge
+![Edge testing](assets/documentation/edge-testing.jpg)
   
 ## Responsiveness Testing
 * Mobile Phones
 
-![Responsiveness on mobile phones](assets/documentation/mobile-home.png)  
-![Responsiveness on mobile phones](assets/documentation/mobile-gallery.png)   
-![Responsiveness on mobile phones](assets/documentation/mobile-get-in-touch.png)   
-![Responsiveness on mobile phones](assets/documentation/mobile-rules.png)   
-![Responsiveness on mobile phones](assets/documentation/mobile-thankyou.png)
+![Responsiveness on mobile phones](assets/documentation/mobile-home.png) ![Responsiveness on mobile phones](assets/documentation/mobile-gallery.png) ![Responsiveness on mobile phones](assets/documentation/mobile-get-in-touch.png) ![Responsiveness on mobile phones](assets/documentation/mobile-rules.png) ![Responsiveness on mobile phones](assets/documentation/mobile-thankyou.png)
 
 * Tablets
 ![Responsiveness on tablets](assets/documentation/tablet-home.png) 
@@ -206,6 +212,7 @@
 ### Bugs
 #### Solved bugs
 * After deploying the website I found out that the images were broken in the gallery page. This was due to absolute file paths. I fixed it by removing the initial slash and making the file paths relative.
+* In the deployed version, the background images for the rules and get in touch pages were not covering the whole section on tablets and larger screens. I fixed it by adding a height property to the sections affected.
 
 #### Unsolved bugs
 * None.
@@ -215,8 +222,26 @@
   * In the [GitHub repository](https://github.com/NoeliaCI/coffee-meows), go to the settings tab.
   * Select the Main Branch from the source menu and click save.
   * The page will refresh and a message with successful deployment will display if anything went wrong.
-* The website can also be accessed by the live link here: [Coffee & Meows](https://noeliaci.github.io/coffee-meows/)
+* The website can also be accessed by the live link here: [Coffee & Meows](https://noeliaci.github.io/coffee-meows/).
 ---
 
 # Credits
+## Content
+* The code for the navigation bar, structure for hero image and cover text was taken from Love Running project and adapted to my website.
+* To make a responsive gallery I check the lessons in [W3Schools](https://www.w3schools.com/).
+* To make the footer I watched some tutorials in the YouTube channel of [Kevin Powell](https://www.youtube.com/@KevinPowell).
+* The text for the health benefits of cats was taken from [here](https://www.helpguide.org/articles/healthy-living/joys-of-owning-a-cat.htm).
+* The text for the rules page was taken from [Kitty Cafe](https://www.kittycafe.co.uk/dist/kitty-cafe-rules.pdf).
+  
+## Media
+
+* The images used for this website are from [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/). Some of the pictures are from my own cats.
+* The background image for the rules page is from [Freepik](https://www.freepik.com/).
+* The icons used in the website are from [Font Awesome](https://fontawesome.com/) and [Favicon](https://favicon.io/).
+  
+## Acknowledgements
+* I would like to thank my mentor Aleksei Konovalov for all the feedback and support in this project.
+* I would like to thank the slack community for all the good stuff posted there.
+* I would like to thank Laura Mayock from CI for all the tips and resources shared with us.
+
 

@@ -36,16 +36,18 @@
 - The link of the page where the user is currently on is underlined.
 - The navigation is clear and easy to understand for the user.
 - The navigation bar is responsive for all devices:
-   * Desktop
+ * Desktop
+  
 ![Navbar for desktop](assets/documentation/nav-bar-desktop.png)
    * Tablet
+  
 ![Navbar for tablet](assets/documentation/nav-bar-tablet.png)
 
    * Mobile
   
 ![Navbar for mobile](assets/documentation/nav-bar-mobile-closed.png) 
 
-     When the user clicks on the hamburger icon the menu expands.
+ * When the user clicks on the hamburger icon the menu expands.
 
 ![Navbar for mobile](assets/documentation/nav-bar-mobile-open.png)
 
@@ -129,8 +131,8 @@
   
 ### Technologies Used
 
-* HTML
-* CSS
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
 * [Google Fonts](https://fonts.google.com/)
 * [Favicon](https://favicon.io/)
 * Icons from [Font Awesome](https://fontawesome.com/)
